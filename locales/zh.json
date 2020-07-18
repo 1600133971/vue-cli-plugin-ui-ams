@@ -1,0 +1,35 @@
+{
+  "org": {
+    "vue": {
+      "st": {
+        "cmd": {
+          "config": {
+            "description": "配置cmd选项",
+            "tab1": {
+              "label": "通用"
+            },
+            "tab2": {
+              "label": "选项"
+            }
+          },
+          "tasks": {
+            "description": "编译并启动cmd测试",
+            "group": {
+              "general": "通用选项",
+              "recommended": "推荐选项",
+              "secondary": "次要选项",
+              "network": "网络选项",
+              "debug": "调试选项"
+            },
+            "mode": {
+              "description": "指定环境模式"
+            },
+            "custom": {
+              "description": "指定定制cmd配置文件(指定cmd配置文件'custom'选项)"
+            }
+          }
+        }
+      }
+    }
+  }
+}

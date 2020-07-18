@@ -1,0 +1,131 @@
+{
+    "read":{
+        "code":0,
+        "message":"success",
+        "data":{
+            "id":26,
+            "title":"我的专属",
+            "content":"{}",
+            "rate":null,
+            "create_time":"2018-11-27 17:59:36",
+            "update_time":"2018-11-27 17:59:36",
+            "is_deleted":0
+        }
+    },
+    "getList": {
+        "code":0,
+        "message":"succeed",
+        "data":{
+            "list":[
+                {
+                    "id":80,
+                    "title":"测试标题1",
+                    "content":"测试内容1",
+                    "rate":null,
+                    "create_time":"2018-11-27 18:34:14",
+                    "update_time":"2018-11-27 18:34:14",
+                    "is_deleted":0
+                },
+                {
+                    "id":76,
+                    "title":"测试标题2",
+                    "content":"测试内容2",
+                    "rate":null,
+                    "create_time":"2018-11-27 18:34:14",
+                    "update_time":"2018-11-27 18:34:14",
+                    "is_deleted":0
+                },
+                {
+                    "id":75,
+                    "title":"测试标题3",
+                    "content":"测试内容3",
+                    "rate":"",
+                    "create_time":"2018-11-27 18:34:14",
+                    "update_time":"2018-11-27 18:34:14",
+                    "is_deleted":0
+                },
+                {
+                    "id":74,
+                    "title":"标题",
+                    "content":"内容",
+                    "rate":"",
+                    "create_time":"2019-04-09 20:08:27",
+                    "update_time":"2019-04-25 23:14:06",
+                    "is_deleted":0
+                },
+                {
+                    "id":34,
+                    "title":"我的后台6",
+                    "content":"{test:6}",
+                    "rate":null,
+                    "create_time":"2018-11-27 18:34:48",
+                    "update_time":"2018-11-27 18:34:48",
+                    "is_deleted":0
+                },
+                {
+                    "id":33,
+                    "title":"我的后台5",
+                    "content":"{test:5}",
+                    "rate":null,
+                    "create_time":"2018-11-27 18:34:35",
+                    "update_time":"2018-11-27 18:34:35",
+                    "is_deleted":0
+                },
+                {
+                    "id":32,
+                    "title":"我的后台4",
+                    "content":"{test:4}",
+                    "rate":null,
+                    "create_time":"2018-11-27 18:34:14",
+                    "update_time":"2018-11-27 18:34:14",
+                    "is_deleted":0
+                },
+                {
+                    "id":31,
+                    "title":"我的后台3",
+                    "content":"{test:3}",
+                    "rate":"",
+                    "create_time":"2018-11-27 18:33:51",
+                    "update_time":"2018-11-27 18:33:51",
+                    "is_deleted":0
+                },
+                {
+                    "id":30,
+                    "title":"我的后台2",
+                    "content":"{test:2}",
+                    "rate":null,
+                    "create_time":"2018-11-27 18:33:35",
+                    "update_time":"2018-11-27 18:33:35",
+                    "is_deleted":0
+                },
+                {
+                    "id":29,
+                    "title":"我的后台1",
+                    "content":"{test:1}",
+                    "rate":null,
+                    "create_time":"2018-11-27 18:33:18",
+                    "update_time":"2018-11-27 18:33:18",
+                    "is_deleted":0
+                }
+            ],
+            "total":15,
+            "page":1,
+            "pagesize":10
+        }
+    },
+    "update": {
+        "code":0,
+        "message":"succeed",
+        "data":0
+    },
+    "delete": {
+        "code": 0,
+        "message": "succeed",
+        "data": {}
+    },
+    "create": {
+        "code": 0,
+        "message": "succeed",
+        "data": {}
+    }
+}

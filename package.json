@@ -1,0 +1,16 @@
+{
+  "name": "vue-cli-plugin-ui-ams",
+  "description": "A Vue-CLI UI 4.x project for Admin Material System",
+  "author": "1600133971",
+  "version": "0.0.1",
+  "main": "index.js",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/1600133971/vue-cli-plugin-ui-ams.git"
+  },
+  "homepage": "https://github.com/1600133971/vue-cli-plugin-ui-ams#readme",
+  "dependencies": {
+    "vue": "^2.5.17"
+  }
+}
