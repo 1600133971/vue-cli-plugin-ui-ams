@@ -9,10 +9,17 @@ module.exports = (api, opts, rootOptions) => {
   })
 
   api.injectImports(utils.getMain(), `import './plugins/element.js'`)
+  api.injectImports(utils.getMain(), `import './plugins/ams.js'`)
 
   api.render({
     './src/plugins/element.js': './templates/src/plugins/element.js',
-    './src/App.vue': './templates/src/App.vue'
+    './src/plugins/ams.js': './templates/src/plugins/ams.js',
+    './src/ams/demo.js': './templates/src/ams/demo.js',
+    './src/ams/list.js': './templates/src/ams/list.js',
+    './src/config/data.json': './templates/src/config/data.json',
+    './src/config/server.js': './templates/src/config/server.js',
+    './src/App.vue': './templates/src/App.vue',
+    './vue.config.js': './templates/vue.config.js'
   })
 
   if (opts.import === 'partial') {
