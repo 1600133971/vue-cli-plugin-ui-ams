@@ -2,7 +2,7 @@
   "name": "vue-cli-plugin-ui-ams",
   "description": "A Vue-CLI UI 4.x project for Admin Material System",
   "author": "1600133971",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "main": "index.js",
   "license": "MIT",
   "repository": {
