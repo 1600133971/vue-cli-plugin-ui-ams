@@ -5,8 +5,8 @@ const config = {
     demoResource: {
       api: {
         contentType: "form",
-        //prefix: "https://www.yournana.club/vipshop/ams-page-demo/",
-        prefix: "/api/",
+        prefix: "https://www.yournana.club/vipshop/ams-page-demo/",
+        //prefix: "/api/",
         read: "read",
         update: "update",
         list: "getList",

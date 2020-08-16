@@ -1,31 +1,33 @@
 {
   "org": {
     "vue": {
-      "st": {
-        "cmd": {
-          "config": {
-            "description": "Configure options of cmd",
-            "tab1": {
-              "label": "General"
-            },
-            "tab2": {
-              "label": "Options"
+      "ams": {
+        "prompts": {
+          "group": {
+            "element": "Element UI Options",
+            "ams": "AMS Options"
+          },
+          "import": {
+            "message": "How do you want to import Element?",
+            "choices": {
+              "full": "Fully import",
+              "partial": "Import on demand"
             }
           },
-          "tasks": {
-            "description": "Compile and testing with cmd",
-            "group": {
-              "general": "General Options",
-              "recommended": "Recommended Options",
-              "secondary": "Secondary Options",
-              "network": "Network Options",
-              "debug": "Debug Options"
-            },
-            "mode": {
-              "description": "Specify env mode"
-            },
-            "custom": {
-              "description": "Specify custom cmd conf file(conf selects 'custom' option)"
+          "customTheme": {
+            "message": "Do you wish to overwrite Element's SCSS variables?"
+          },
+          "lang" : {
+            "message": "Choose the locale you want to load"
+          },
+          "type": {
+            "message": "AMS use Application Type",
+            "choices": {
+              "app": "Application Management System",
+              "sell": "Sales Data Board",
+              "base": "Collection of Basic Examples",
+              "government": "Government Management System",
+              "customer": "Customer Source Management System"
             }
           }
         }

@@ -9,6 +9,7 @@ module.exports = [
       { name: 'Fully import', value: 'full' },
       { name: 'Import on demand', value: 'partial' }
     ],
+    group: 'Element UI Options',
     default: 'full',
   },
   {
@@ -16,6 +17,7 @@ module.exports = [
     type: 'confirm',
     name: 'customTheme',
     message: 'Do you wish to overwrite Element\'s SCSS variables?',
+    group: 'Element UI Options',
     default: false,
   },
   {
@@ -26,14 +28,33 @@ module.exports = [
       name: locale,
       value: locale
     })),
+    group: 'Element UI Options',
     default: 'zh-CN'
   },
   {
+    type: 'list',
+    name: 'type',
+    message: 'AMS use Application Type',
+    choices: [
+      { name: 'Application Management System', value: 'app' },
+      { name: 'Sales Data Board', value: 'sell' },
+      { name: 'Collection of Basic Examples', value: 'base' },
+      { name: 'Government Management System', value: 'government' },
+      { name: 'Customer Source Management System', value: 'customer' },
+      { name: 'Business Management System', value: 'business' },
+      { name: 'Order Management System', value: 'order' },
+      { name: 'Image Upload Example', value: 'upload' },
+      { name: 'Login Form Page Example', value: 'login' }
+    ],
+    group: 'AMS Options',
+    default: 'base',
+  }
+  /*{
     type: 'input',
     name: 'name',
     message: 'Name of vue-cli ui plugin',
     validate: input => !!input,
-    group: 'Basic Options',
+    group: 'AMS Options',
     default: 'chrome-extension'
   },
   {
@@ -41,7 +62,7 @@ module.exports = [
     name: 'version',
     message: 'Version for vue-cli ui plugin',
     validate: input => !!input,
-    group: 'Basic Options',
+    group: 'AMS Options',
     default: '0.0.1'
   },
   {
@@ -49,25 +70,14 @@ module.exports = [
     name: 'description',
     message: 'Description for vue-cli ui plugin',
     validate: input => !!input,
-    group: 'Basic Options',
+    group: 'AMS Options',
     default: '__MSG_pluginDesc__'
-  },
-  {
-    type: 'list',
-    name: 'script',
-    message: 'Vue UI(devtools,newtab,options,popup) use Javascript or Typescript',
-    choices: [
-      { name: 'Javascript', value: 'js' },
-      { name: 'Typescript', value: 'ts' }
-    ],
-    group: 'Basic Options',
-    default: 'js',
   },
   {
     type: 'confirm',
     name: 'test1',
     message: 'test1 message',
-    group: 'Extend Options',
+    group: 'AMS Extend Options',
     default: false
   },
   {
@@ -75,15 +85,7 @@ module.exports = [
     type: 'confirm',
     name: 'test2',
     message: 'test2 message',
-    group: 'Extend Options',
+    group: 'AMS Extend Options',
     default: false
-  },
-  {
-    when: answers => answers.test1 && answers.test2,
-    type: 'confirm',
-    name: 'test3',
-    message: 'test3 message',
-    group: 'Background Options',
-    default: false
-  }
+  }*/
 ];

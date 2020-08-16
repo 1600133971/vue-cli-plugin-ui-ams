@@ -1,8 +1,8 @@
 {
   "name": "vue-cli-plugin-ui-ams",
-  "description": "A Vue-CLI UI 4.x project for Admin Material System",
+  "description": "A Vue-CLI UI 4.x project for Admin Material System(AMS) of VIPSHOP",
   "author": "1600133971",
-  "version": "0.0.3",
+  "version": "0.0.11",
   "main": "index.js",
   "license": "MIT",
   "repository": {

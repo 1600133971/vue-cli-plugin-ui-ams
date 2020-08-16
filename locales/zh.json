@@ -1,31 +1,33 @@
 {
   "org": {
     "vue": {
-      "st": {
-        "cmd": {
-          "config": {
-            "description": "配置cmd选项",
-            "tab1": {
-              "label": "通用"
-            },
-            "tab2": {
-              "label": "选项"
+      "ams": {
+        "prompts": {
+          "group": {
+            "element": "Element UI选项",
+            "ams": "AMS选项"
+          },
+          "import": {
+            "message": "导入Element的方式?",
+            "choices": {
+              "full": "完全导入",
+              "partial": "按需导入"
             }
           },
-          "tasks": {
-            "description": "编译并启动cmd测试",
-            "group": {
-              "general": "通用选项",
-              "recommended": "推荐选项",
-              "secondary": "次要选项",
-              "network": "网络选项",
-              "debug": "调试选项"
-            },
-            "mode": {
-              "description": "指定环境模式"
-            },
-            "custom": {
-              "description": "指定定制cmd配置文件(指定cmd配置文件'custom'选项)"
+          "customTheme": {
+            "message": "是否需要覆盖Element的SCSS参数?"
+          },
+          "lang" : {
+            "message": "选择需要加载的本地化选项"
+          },
+          "type": {
+            "message": "选择AMS应用类型",
+            "choices": {
+              "app": "应用管理系统",
+              "sell": "销售数据看板",
+              "base": "基础示例合集",
+              "government": "政府管理系统",
+              "customer": "客源管理系统"
             }
           }
         }
